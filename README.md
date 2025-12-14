@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Safety Hub
 
-## Getting Started
+A public, evidence-based platform for AI safety, governance, regulation tracking, and accountable AI systems.
 
-First, run the development server:
+This project is intentionally designed as a **long-term learning lab** and **production-grade system** that integrates:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Frontend engineering
+- Backend architecture
+- API design (OpenAPI)
+- Accessibility (508 / WCAG)
+- SEO
+- Data engineering & ETL
+- Security and DevOps foundations
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎯 Project Goals
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Educate the public on AI safety and governance using verifiable sources
+- Track AI regulations, incidents, and research transparently
+- Build trustworthy, auditable AI-adjacent systems
+- Serve as a hands-on learning platform for modern system architecture
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧠 Architectural Philosophy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project follows a **systems-first** approach:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **React** for accessible, human-facing interfaces
+- **Node.js** for backend logic and APIs
+- **OpenAPI** for explicit, documented API contracts
+- **PostgreSQL** (planned) as the source of truth
+- **Python ETL** (planned) for data ingestion and transformation
+- **DevOps practices** for reliability, security, and scale
 
-## Deploy on Vercel
+Even when components live in the same codebase, they are treated as **separate responsibilities**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🖥️ Tech Stack
+
+### Frontend
+- Next.js (App Router)
+- React + TypeScript
+- MUI (Material UI)
+- Server Components for SEO and performance
+
+### Backend
+- Node.js (Next.js API routes)
+- Explicit API boundaries
+- Health and documentation endpoints
+
+### API & Contracts
+- OpenAPI 3.0
+- Machine-readable API specification
+- Foundation for client generation, validation, and governance
+
+### Accessibility & SEO
+- WCAG / Section 508 compliant layout
+- Semantic HTML landmarks
+- Keyboard navigation
+- High-contrast design
+- Metadata-first SEO
+
+---
+
+## 🔌 API Endpoints
+
+### Health Check
