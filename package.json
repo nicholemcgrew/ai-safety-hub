@@ -2,6 +2,22 @@
   "name": "ai-safety-hub",
   "version": "0.1.0",
   "private": true,
+  "description": "AI Safety Hub",
+  "keywords": [
+    "AI"
+  ],
+  "homepage": "https://github.com/nicholemcgrew/ai-safety-hub#readme",
+  "bugs": {
+    "url": "https://github.com/nicholemcgrew/ai-safety-hub/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nicholemcgrew/ai-safety-hub.git"
+  },
+  "license": "ISC",
+  "author": "Nichole McGrew",
+  "type": "commonjs",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +25,12 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@mui/material-nextjs": "^7.3.6",
     "next": "16.0.10",
     "react": "19.2.1",
-    "react-dom": "19.2.1"
+    "react-dom": "19.2.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-react": "^5.31.0"
   },
   "devDependencies": {
     "@types/node": "^20",
